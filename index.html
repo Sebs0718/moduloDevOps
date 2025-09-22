@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Landing Page</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Bienvenido a Mi Landing Page</h1>
+        <p>Un diseño simple, moderno y atractivo</p>
+        <nav>
+            <a href="#about">Acerca</a>
+            <a href="#features">Características</a>
+            <a href="#contact">Contacto</a>
+        </nav>
+    </header>
+
+    <section id="about" class="hidden">
+        <h2>Acerca de Nosotros</h2>
+        <p>
+            Somos una empresa dedicada a crear soluciones innovadoras y fáciles de usar,
+            diseñadas para mejorar tu vida diaria.
+        </p>
+    </section>
+
+    <section id="features" class="hidden">
+        <h2>Nuestras Características</h2>
+        <div class="features">
+            <div class="card">⚡ Rápido y confiable</div>
+            <div class="card">💡 Soluciones inteligentes</div>
+            <div class="card">🌍 Disponible en todo el mundo</div>
+        </div>
+        <div class="cta">
+            <a href="#contact" class="btn">Comenzar Ahora</a>
+        </div>
+    </section>
+
+    <section id="contact" class="hidden">
+        <h2>Contacto</h2>
+        <p>Déjanos tu correo y te enviaremos más información:</p>
+        <form id="contactForm">
+            <input type="email" id="email" placeholder="Tu correo" required
+                style="padding:0.6rem; border:1px solid #ccc; border-radius:8px; width:60%; max-width:300px;" />
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        © 2025 Mi Landing Page - Todos los derechos reservados
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
