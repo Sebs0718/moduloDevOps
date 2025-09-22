@@ -15,6 +15,6 @@ const form = document.getElementById('contactForm');
 form.addEventListener('submit', (event) => {
   event.preventDefault();
   const email = document.getElementById('email').value;
-  alert(`¡Gracias por registrarte, ${email}!`);
+  alert(`¡Gracias por registrarte, ${email}! 🚀`);
   form.reset();
 });
